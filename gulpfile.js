@@ -38,3 +38,4 @@ gulp.task('js', function(){
 
   //default gulp task
   gulp.task('default', ['js', 'serve', 'fa','fonts']);
+//"gulp-serve": "^1.4.0",
