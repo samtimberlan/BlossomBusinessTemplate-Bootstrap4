@@ -24,7 +24,7 @@ app.get('/services', (req, res)=>{
   res.sendFile('services.html');
 });
 
-const port = 3000 || process.env.PORT
+const port = process.env.PORT ||3000;
 app.listen(port, ()=> {
   console.log('App running on port ' + port);
 });
